@@ -6,10 +6,12 @@ import Details from './details.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/internship-task1">
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/image-details/:id" element={<Details />} />
+
+        <Route path="*" element={<h1>404 - Page Not Found</h1>} />
       </Routes>
     </BrowserRouter>
   </StrictMode>,
