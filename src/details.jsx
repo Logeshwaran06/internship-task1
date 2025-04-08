@@ -40,10 +40,10 @@ export default function Details() {
     ];
 
     const slideImage = [
-        "/slide1.jpg",
-        "/slide2.jpg",
-        "/slide3.jpg",
-        "/slide4.jpg"
+        "/internship-task1/slide1.jpg",
+        "/internship-task1/slide2.jpg",
+        "/internship-task1/slide3.jpg",
+        "/internship-task1/slide4.jpg"
     ]
 
     return (
@@ -54,7 +54,7 @@ export default function Details() {
                     <h1 className="detailsTitle">{currentImageData.imgTitle}</h1>
                     <div className="downloadImageContainer" onClick={handleDownload}>
                         <p className="downloadImageText">Download The Image</p>
-                        <img className="downloadImage" src="/downloadIcon.svg" alt="Download Icon" />
+                        <img className="downloadImage" src="/internship-task1/downloadIcon.svg" alt="Download Icon" />
                     </div>
                 </div>
 
@@ -67,9 +67,9 @@ export default function Details() {
 
             <div className="displayedImageContainer">
                 <div className="displayedImages">
-                    <img className="forward icon" src="/arrowBackIcon.svg" alt="Previous" onClick={handlePrev} />
+                    <img className="forward icon" src="/internship-task1/arrowBackIcon.svg" alt="Previous" onClick={handlePrev} />
                     <img className="displayedImage" src={currentImageData.img} alt={currentImageData.imgTitle} />
-                    <img className="backward icon" src="/arrowForwardIcon.svg" alt="Next" onClick={handleNext} />
+                    <img className="backward icon" src="/internship-task1/arrowForwardIcon.svg" alt="Next" onClick={handleNext} />
                 </div>
                 <div className="headingInsideImage">
                     <h3><span>U</span>NIQUE <span>S</span>TYLE <span>P</span>LATFORM</h3>
@@ -89,7 +89,7 @@ export default function Details() {
             
                 <hr />
                 <div className="tagsContainer">
-                    <img src="/tagIcon.svg" alt="Tag Icon" />
+                    <img src="/internship-task1/tagIcon.svg" alt="Tag Icon" />
                     {sideTags.map((tag, index) => (
                         <p className="tags" key={index}>{tag}</p>
                     ))}
