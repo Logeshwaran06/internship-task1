@@ -7,7 +7,7 @@ export default function App() {
 
 
     const Images = [
-        {id: "1", img: `${import.meta.env.BASE_URL}img1.jpg`, imgTitle: "USP Inspire: Inked Up", date: "January 03, 2025"},
+        {id: "1", img: `/internship-task1/img1.jpg`, imgTitle: "USP Inspire: Inked Up", date: "January 03, 2025"},
         {id: "2", img: `${import.meta.env.BASE_URL}img2.jpg`, imgTitle: "USP Loves Issue 37: Has The Algorithm Killed Personal Style?", date: "January 07, 2025"},
         {id: "3", img: `${import.meta.env.BASE_URL}img3.jpg`, imgTitle: "USP Inspire: Space Style", date: "January 12, 2025"},
         {id: "4", img: `${import.meta.env.BASE_URL}img4.jpg`, imgTitle: "USP Inspire: Showgirl", date: "January 19, 2025"},
